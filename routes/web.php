@@ -26,7 +26,7 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     
     Route::get('/{username}', function () {
         return view('user.profile');
-    })->name('profile');
+    })->name('user.profile');
 
 });
 
